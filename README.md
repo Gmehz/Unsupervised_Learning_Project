@@ -1,17 +1,31 @@
 # machine_learning_project-unsupervised-learning
 
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
+## Project Goals
+ The goal of this project is to perform unsupervised learning techniques on a wholesale data dataset. The main objective is to segment the customers in such a way that the distributor can devise targeted marketing and service strategies for each segment, thus improving business performance and customer satisfaction. This is achieved by applying unsupervised learning techniques (like KMeans clustering, Hierarchical clustering) and Dimensionality Reduction (Principal Component Analysis) on the spending data.
+ 
+ ## Project Steps
+ The project involves four main steps: 
+
+ 1.Exploratory data analysis and pre-processing
+
+ 2.KMeans clustering
+
+ 3.Hierarchical clustering
+
+ 4.PCA.
+
 ### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+In this project, I have applied unsupervised learning techniques to a real-world data set and I have used data visualization tools so that I can communicate the insights gained from the analysis.
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+-	Exploratory data analysis and pre-processing: I have imported and cleaned the dataset, analyzed and visualized the relationships between the different variables. There were no missing values. I have dealt with outliers, and hot-encoded the Region and Channel columns which are categorical columns.
+-	Unsupervised learning: I have performed kMeans clustering, Hierarchical clustering, and Principal component Analysis (PCA) to identify patterns and group similar data points together. After doing the KMeans and Hierarchical clustering, I have calculated and plotted the silhouette scores for the probable number of clusters. These scores help us determine the optimal number of clusters. For KMeans 3 seems a reasonable cluster, while 5 clusters also seem appropriate. As for Hierarchical clustering, 5 clusters seem to have the highest silhouette score. The PCA step makes clustering easier. PCA led to the fact that 'Channel', 'Grocery', 'Detergents_Paper', and 'Milk' are the main contributors to the first principal component. This can help us determine key factors differentiating customer groups.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+## Conclusion
+To cater for Tailored Marketing Strategies, with an understanding of the different distinct customer segments and their purchasing patterns, businesses can develop a tailored marketting strategies to better target these customers.
+
+
+
+
+
 
